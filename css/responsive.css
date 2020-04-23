@@ -475,12 +475,33 @@ footer {
 }
 
 @media only screen and (max-width: 700px) {
+  
+  #logo h1 {
+    width: 0px;
+    height: 0px;
+    /* visibility: hidden; */
+    /* display: none */
+  }
+
+  #logo h2 {
+    font-size: 1.4em;
+    /* visibility: hidden; */
+    display: none;
+  }
+
+  #logo {
+    /* visibility: hidden; */
+    /* display: none; */
+  }
+  
   .wrapper{
-    width: 80%;
+    width: 85%;
+    
   }
 
   .col-3 p {
     column-count: 1;
+    
   }
 
   .col-1 {
@@ -499,6 +520,14 @@ footer {
     width :100%; 
     margin-left: 0; 
     float: none;
+  }
+
+  #social {
+    position: absolute;
+    top: 150px;
+    right: 5px;
+    width: 40px;
+    z-index: 2;
   }
 }
 
